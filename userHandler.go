@@ -10,6 +10,7 @@ type User struct {
 	Name string `json:"name"`
 }
 
+
 var (
 	users  = make(map[int]User)
 	idUser = 1
